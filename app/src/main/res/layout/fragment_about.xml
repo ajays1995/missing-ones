@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498db">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tabl1">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/head"
+                    android:text="Our Inspiration"
+                    android:layout_weight="1"
+                    android:textColor="#22313F"
+                    android:typeface="sans"
+                    android:background="@drawable/editextbox"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/data1"
+                    android:text=""
+                    android:maxLines="29"
+                    android:singleLine="false"
+                    android:layout_weight="1"
+                    android:textColor="#67809F"
+                    android:typeface="sans"
+                    android:background="@drawable/editextbox"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="20dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tabl1"
+        android:layout_marginBottom="20dp">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/head2"
+                    android:text="Our Mission"
+                    android:layout_weight="1"
+                    android:textColor="#22313F"
+                    android:typeface="sans"
+                    android:background="@drawable/editextbox"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="22dp"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/data2"
+                    android:text=""
+                    android:maxLines="12"
+                    android:singleLine="false"
+                    android:layout_weight="1"
+                    android:textColor="#67809F"
+                    android:typeface="sans"
+                    android:background="@drawable/editextbox"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="20dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/editextbox"/>
+            -->
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#663399">
+
+   <!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:textColor="#663399"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Search "
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/textView"
+            android:gravity="center"/>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_editext"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:id="@+id/name_se"
+            android:hint="  Full Name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_editext"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:id="@+id/gen"
+            android:hint="  Gender"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_editext"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:id="@+id/ageg"
+            android:hint="  Age "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_editext"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:id="@+id/location"
+            android:hint="  Location "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Search"
+            android:textColor="#663399"
+            android:id="@+id/search"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/button_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="* One Field is Mandatory"
+            android:textColor="#C5EFF7"
+            android:textSize="22dip"
+            android:id="@+id/optional"
+            android:gravity="center"/>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="All"
+            android:textColor="#663399"
+            android:id="@+id/all"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/button_next"/>
+    </LinearLayout>-->
+</RelativeLayout>

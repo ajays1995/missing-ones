@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <com.example.hp_hp.missingones.ImageViewRounded
+            android:id="@+id/list_image"
+            android:layout_marginTop="2dp"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:src="@drawable/ic_action_social_person"/>
+
+    </LinearLayout>
+
+    <!-- Name-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Name"
+        android:textColor="#19B5FE"
+        android:typeface="sans"
+        android:textSize="22dip"
+        android:textStyle="bold"/>
+
+    <!-- Gender -->
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textColor="#343434"
+        android:textSize="18dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Gender" />
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:textColor="#343434"
+        android:textSize="18dip"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Location" />
+
+
+
+    <!-- Rightend Age -->
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/name"
+        android:gravity="right"
+        android:text="Age"
+        android:layout_marginRight="20dip"
+        android:textSize="18dip"
+        android:textColor="#1abc9c"
+        android:textStyle="bold"/>
+
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

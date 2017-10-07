@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Missing One\'s</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="hairtype">Hair Type</string>
+
+    <string-array name="htpe">
+    <item>   Choose Hair Type</item>
+    <item>   Black Combed</item>
+    <item>   Bald Full</item>
+    <item>   Bald Partial</item>
+    <item>   Curly</item>
+    <item>   Long</item>
+    <item>   Mixed Hairs</item>
+    <item>   Normal</item>
+    <item>   Partly Combed</item>
+    <item>   Straight Hair</item>
+    <item>   Wig Use Of</item>
+    </string-array>
+
+    <string name="haircolor">Hair Color</string>
+
+    <string-array name="hcolor">
+    <item>   Choose Hair Color</item>
+    <item>   Black</item>
+    <item>   Brown</item>
+    <item>   Gray</item>
+    <item>   White</item>
+    </string-array>
+
+    <string name="complexion">Complexion</string>
+
+    <string-array name="complexion">
+    <item>   Choose Complexion</item>
+    <item>   Dark</item>
+    <item>   Fair</item>
+    <item>   Normal</item>
+    <item>   Very Fair</item>
+    <item>   Whitish/Sallow</item>
+    </string-array>
+
+    <string name="body">Body Build</string>
+
+    <string-array name="body">
+    <item>   Choose Body Build</item>
+    <item>   Erect</item>
+    <item>   Fat</item>
+    <item>   Hench Back</item>
+    <item>   Lean</item>
+    <item>   Normal</item>
+    <item>   Stooping</item>
+    <item>   Well-Built</item>
+    </string-array>
+
+
+
+</resources>

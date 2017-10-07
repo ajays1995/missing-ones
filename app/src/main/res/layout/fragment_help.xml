@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="2030dp"
+        android:background="#FCC059">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Some Important Organisations Dealing for the MISSING PEOPLE cause are:"
+        android:layout_weight="1"
+        android:textColor="#22313F"
+        android:typeface="sans"
+        android:background="@drawable/layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:text="Sapna"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data1"
+                        android:text="www.sapnaindia.org/missing-persons.html"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/contact1"
+                        android:text="Vijay Mandir, p.o  Vijay Mandir Behror Road Alwar Rajasthan-301023"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:text="Child Line"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data2"
+                        android:text="www.childlineindia.org.in/missing-children-india.html"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/contact2"
+                        android:text="Contact: 1098"
+                        android:autoLink="phone"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:text="Missing Indian Kid"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data3"
+                        android:text="www.missingindiankids.com/"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="18dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/contact3"
+                        android:text="Contact: (91 731) 3026998"
+                        android:autoLink="phone"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="18dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:text="SAAGN"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data4"
+                        android:text="www.saagn.org/india-missing-children-an-epidemic"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="18dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/contact4"
+                        android:text="Contact: +91-11-46471000"
+                        android:autoLink="phone"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="18dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="1015dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:text="Indian Missing"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data5"
+                        android:text="www.indiansmissing.com"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/contact5"
+                        android:text="Contact: (91 731) 519279"
+                        android:autoLink="phone"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="1210dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:text="Uttar Pradesh Crime Record Bureau"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data6"
+                        android:text="www.upmissingpersons.in"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+          </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="1380dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:text="Maharshtra Police"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data7"
+                        android:text="www.mahapolice.gov.in"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+             </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="1535dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title8"
+                        android:text="Kolkata Police"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data8"
+                        android:text="www.kolkatapolice.gov.in/ShowMissingPersons.aspx"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="1700dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title9"
+                        android:text="Kerala Police"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data9"
+                        android:text="www.keralapolice.org/newsite/missing_persons.html"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="18dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="1870dp"
+            android:background="@drawable/layout"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title10"
+                        android:text="Interpol"
+                        android:layout_weight="1"
+                        android:textColor="#22313F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="22dp"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/data10"
+                        android:text="www.interpol.int/notice/search/missing"
+                        android:autoLink="web"
+                        android:maxLines="29"
+                        android:singleLine="false"
+                        android:layout_weight="1"
+                        android:textColor="#67809F"
+                        android:typeface="sans"
+                        android:background="@drawable/editextbox"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
